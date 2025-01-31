@@ -43,7 +43,7 @@ public class fire {
 
 	}
 	
-	public static final CreativeModeTab TAB = new CreativeModeTab("fire_SA") {
+	public static final CreativeModeTab SA_TAB = new CreativeModeTab("fire_SA") {
 		@Override
 		public ItemStack makeIcon() {
 			return new ItemStack(RegistryHandler.SHINGLE.get());
